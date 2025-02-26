@@ -38,7 +38,7 @@
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 135%;
 }
 
 .header__address {
@@ -96,7 +96,7 @@
 .cover__description-text {
   font-size: 22px;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 127%;
   word-spacing: 19px;
 }
 
@@ -228,7 +228,7 @@
 .about__text {
   padding-right: 5px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
 }
 
 .about__text:not(:last-child) {
