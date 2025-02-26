@@ -17,11 +17,15 @@
   list-style: circle;
 }
 
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header__links-list-item {
+.header__links-list-item:not(:first-child) {
   margin-left: 15px;
 }
 
@@ -47,7 +51,7 @@
 
 .cover {
   position: relative;
-  z-index: -2;
+  z-index: 1;
   padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
   color: #fff;
@@ -105,6 +109,7 @@
   border: 1px solid #fff;
   color: #fff;
   background: transparent;
+  cursor: pointer;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
@@ -140,7 +145,7 @@
 
 .card {
   position: relative;
-  z-index: -2;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
